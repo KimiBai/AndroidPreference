@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/text_view">
+        <Preference
+            android:key="preference"
+            android:title="@string/show_text"
+            android:defaultValue="text value"
+            android:summary="@string/text_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/edit_text">
+        <EditTextPreference
+            android:key="edittext_preference"
+            android:title="@string/edit_text"
+            android:summary="@string/edit_summary"
+            android:dialogTitle="@string/edit_dialog_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/checkbox">
+        <CheckBoxPreference
+            android:key="checkbox_preference_1"
+            android:title="@string/selection_1"
+            android:summary="@string/selection_summary_1"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/single_selection">
+        <ListPreference
+            android:key="list_preference"
+            android:title="@string/single_selection"
+            android:summary="@string/single_selection_summary"
+            android:entries="@array/sigle_selection"
+            android:entryValues="@array/single_selection_value"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/toggle">
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="@string/toggle"
+            android:textOn="@string/on"
+            android:textOff="@string/off"
+            android:summary="@string/toggle_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

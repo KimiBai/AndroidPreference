@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PreferenceApplication</string>
+    <string name="action_setting">Setting</string>
+    <string name="text_view">Text View</string>
+    <string name="show_text">Show Text</string>
+    <string name="text_summary">Text Summary</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="edit_summary">Edit Summary</string>
+    <string name="edit_dialog_title">Edit Dialog</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="selection_1">Selection 1</string>
+    <string name="selection_summary_1">Selection Summary 1</string>
+    <string name="single_selection">Single Selection</string>
+    <string name="single_selection_summary">Single Selection Summary</string>
+    <string name="toggle">Toggle</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="toggle_summary">Toggle Summary</string>
+</resources>
